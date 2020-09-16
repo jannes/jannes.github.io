@@ -1,0 +1,8 @@
+baseURL: https://www.jannestimm.com
+languageCode: en-us
+title: Jannes
+theme: tailwind-custom
+
+# enable syntax highlighting
+pygmentsCodefences: true
+pygmentsStyle: pygments
