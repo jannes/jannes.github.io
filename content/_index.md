@@ -1,6 +1,6 @@
 ---
 author: Jannes Timm
-title: Jannes's website
+title: Jannes's homepage
 date: 2020-09-12
-description: Welcome to Jannes's site
+description: my personal info, projects & notes
 ---

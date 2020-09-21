@@ -1,13 +1,17 @@
 main:                                      
-  - identifier: about                      
+  - identifier: Home                      
+    name: Home                            
+    url: /
+    weight: 1                              
+  - identifier: About                      
     name: About                            
     url: /about                            
-    weight: 1                              
-  - identifier: projects
+    weight: 2                              
+  - identifier: Projects
     name: Projects
     url: /projects
-    weight: 2
-  - identifier: notes
+    weight: 3
+  - identifier: Notes
     name: Notes
     url: /notes
-    weight: 3
+    weight: 4

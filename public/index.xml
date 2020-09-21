@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jannes&#39;s homepage on Jannes</title>
+    <link>https://www.jannestimm.com/</link>
+    <description>Recent content in Jannes&#39;s homepage on Jannes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jannestimm.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jihanzi - Mandarin Vocabulary Extraction</title>
+      <link>https://www.jannestimm.com/projects/jihanzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/projects/jihanzi/</guid>
+      <description>A web app to extract Mandarin vocabulary information from epub, pdf and raw text.</description>
+    </item>
+    
+    <item>
+      <title>Word-list filter App</title>
+      <link>https://www.jannestimm.com/projects/han_filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/projects/han_filter/</guid>
+      <description>A desktop application to quickly filter word-lists for words to study.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.jannestimm.com/about/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/about/</guid>
+      <description>I&amp;rsquo;m Jannes.
+I like learning Mandarin and programming.</description>
+    </item>
+    
+  </channel>
+</rss>

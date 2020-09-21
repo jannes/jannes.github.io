@@ -3,7 +3,7 @@
 {{ range .Pages }}
 <article class="text-gray-700 sm:mx-12 mb-4">
     <h2 class="text-xl font-bold text-gray-700"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="prose">{{ .Content }}</div>
+    ({{ .Description }})
 </article>
 {{ end }}
 {{ end }}

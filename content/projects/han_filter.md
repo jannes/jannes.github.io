@@ -1,7 +1,10 @@
 ---
 title: "Word-list filter App"
-date: 2020-09-12T17:13:15+02:00
+project_timeframe: 2020 - present
+project_tech: Typescript, Electron, Angular
+project_link: https://github.com/jannes/zh-vocab-filter
+layout: project
+weight: 2
 ---
 
-very nice app
-look here: https://github.com/jannes/zh-vocab-filter
+A desktop application to quickly filter word-lists for words to study.
