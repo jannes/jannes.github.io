@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Jannes</title>
+    <link>https://www.jannestimm.com/projects/</link>
+    <description>Recent content in Projects on Jannes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.jannestimm.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jihanzi - Mandarin Vocabulary Extraction</title>
+      <link>https://www.jannestimm.com/projects/jihanzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/projects/jihanzi/</guid>
+      <description>A web app to extract Mandarin vocabulary information from epub, pdf and raw text.</description>
+    </item>
+    
+    <item>
+      <title>Word-list filter App</title>
+      <link>https://www.jannestimm.com/projects/han_filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/projects/han_filter/</guid>
+      <description>A desktop application to quickly filter word-lists for words to study.</description>
+    </item>
+    
+  </channel>
+</rss>
