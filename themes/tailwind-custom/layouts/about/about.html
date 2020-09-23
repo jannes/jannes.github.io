@@ -9,60 +9,54 @@
     {{ $github_logo := resources.GetMatch "images/GitHub-Mark-120px-plus.png" }}
     {{ $linkedin_logo := resources.GetMatch "images/LI-In-Bug.png" }}
     <div class="mt-5 grid gap-2 grid-cols-1 md:grid-cols-3">
-        <div class="bg-white overflow-hidden shadow">
+        <a href="{{ .Params.github_url }}" class="bg-white overflow-hidden shadow">
             <div class="px-4 py-0">
-                <div class="flex items-center">
+                <div class="inline-flex lg:flex items-center justify-center">
                     <div class="flex-shrink-0 p-3">
                         <div class="h-8 w-9">
                             <img src="{{$github_logo.Permalink}}" class="h-8 w-8">
                         </div>
                     </div>
-                    <div class="ml-5 w-0 flex-1">
+                    <div class="ml-5">
                         <div class="text-xl text-center leading-8 font-semibold text-gray-900">
-                            <a href="{{ .Params.github_url }}">
-                                Github
-                            </a>
+                            Github
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-white overflow-hidden shadow">
+        </a>
+        <a href="mailto:{{ .Params.email_address }}" class="bg-white overflow-hidden shadow">
             <div class="px-4 py-0">
-                <div class="flex items-center">
+                <div class="inline-flex lg:flex items-center justify-center">
                     <div class="flex-shrink-0 p-3">
-                        <img src="{{$linkedin_logo.Permalink}}" class="h-8 w-9">
-                    </div>
-                    <div class="ml-5 w-0 flex-1">
-                        <div class="text-xl text-center leading-8 font-semibold text-gray-900">
-                            <a href="{{ .Params.linkedin_url }}">
-                                LinkedIn
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-white overflow-hidden shadow">
-            <div class="px-4 py-0">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 rounded-md p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-9" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                     </div>
-                    <div class="ml-5 w-0 flex-1">
+                    <div class="ml-5">
                         <div class="text-xl text-center leading-8 font-semibold text-gray-900">
-                            <a href="mailto:{{ .Params.email_address }}">
-                                Mail
-                            </a>
+                            Mail
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
+        <a href="{{ .Params.linkedin_url }}" class="bg-white overflow-hidden shadow">
+            <div class="px-4 py-0">
+                <div class="inline-flex lg:flex items-center justify-center">
+                    <div class="flex-shrink-0 p-3">
+                        <img src="{{$linkedin_logo.Permalink}}" class="h-8 w-9">
+                    </div>
+                    <div class="ml-5">
+                        <div class="text-xl text-center leading-8 font-semibold text-gray-900">
+                            LinkedIn
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
     </div>
 </div>
 
