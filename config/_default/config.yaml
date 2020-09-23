@@ -1,7 +1,11 @@
 baseURL: https://www.jannestimm.com
 languageCode: en-us
 title: Jannes
+author: Jannes Timmm
+description: personal website of Jannes Timm
 theme: tailwind-custom
+keywords:
+  - Jannes Timm
 
 # enable syntax highlighting
 pygmentsCodefences: true

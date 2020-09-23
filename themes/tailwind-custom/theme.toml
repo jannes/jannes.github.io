@@ -1,6 +1,8 @@
 name = "jannes-hugo-tailwind"
 license = "MIT"
 description = "A minimal hugo theme using tailwind"
+tags = ["Jannes Timm", "Jannes"]
+min_version = "0.69"
 
 [author]
   name = "Jannes Timm"
