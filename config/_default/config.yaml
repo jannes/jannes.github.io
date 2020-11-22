@@ -7,6 +7,9 @@ theme: tailwind-custom
 keywords:
   - Jannes Timm
 
+# don't build the "tags" and "categories" pages
+disableKinds: ["taxonomy", "taxonomyTerm"]
+
 # enable syntax highlighting
 pygmentsCodefences: true
 pygmentsStyle: pygments
