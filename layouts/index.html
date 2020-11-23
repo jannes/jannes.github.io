@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="text-center text-gray-700 my-9">
+    <h1 class="font-serif font-thin text-3xl text-gray-500 mb-5">{{ .Title }}</h1>
+    {{$.Page.Description}}
+</article>
+<section>
+    {{/* Recent Notes*/}}
+    <article class="text-center mt-8">
+        <h2 class="text-2xl">recent notes</h2>
+        <div class="posts">
+            {{ range first 3 (where (where $.Site.RegularPages ".Section" "notes" ) ".Draft" false)}}
+            <div class="post">
+                <a href="{{.Permalink}}">
+                    {{default (.File.ContentBaseName | humanize | title) .Title}}
+                    ({{ .Date.Format "January 2, 2006" }})
+                </a>
+            </div>
+            {{else}}
+            no notes yet
+            {{end}}
+        </div>
+    </article>
+</section>
+{{ end }}

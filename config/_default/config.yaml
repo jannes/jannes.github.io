@@ -3,9 +3,17 @@ languageCode: en-us
 title: Jannes
 author: Jannes Timmm
 description: personal website of Jannes Timm
-theme: tailwind-custom
+# theme: tailwind-custom
 keywords:
   - Jannes Timm
+
+build:
+  writeStats: true
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.75.0"
 
 # don't build the "tags" and "categories" pages
 disableKinds: ["taxonomy", "taxonomyTerm"]

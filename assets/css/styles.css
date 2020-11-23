@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/all.css";
+
+html {
+    font-size: 14px;
+}
+
+@layer base {
+    h1 {
+        @apply bg-green-200;
+    }
+}
+
+@screen md {
+    html {
+        font-size: 16px;
+    }
+}
