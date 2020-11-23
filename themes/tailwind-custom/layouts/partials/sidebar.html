@@ -43,15 +43,15 @@
 </div>
 
 <!-- Static sidebar for desktop -->
-<div class="hidden md:flex md:flex-shrink-0">
-    <div class="flex flex-col w-48">
+<div class="hidden md:flex md:flex-shrink-0 bg-green-300">
+    <div class="flex flex-col w-40">
         <!-- Sidebar component, swap this element with another sidebar if you like -->
-        <div class="flex flex-col h-0 flex-1 border-r border-gray-200 bg-white">
+        <div class="flex flex-col h-0 flex-1 border-r border-gray-200">
             <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
-                <nav class="mt-5 flex-1 px-2 bg-white space-y-1">
+                <nav class="mt-5 flex-1 px-2 bg-green-300 space-y-1">
                     {{ range $.Site.Menus.main }}
                     <a href="{{ .URL }}"
-                        class="group flex items-center px-2 py-2 text-lg leading-5 font-medium text-gray-900 rounded-md bg-green-200 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
+                        class="group flex items-center px-2 py-4 text-lg leading-5 font-medium font-serif text-gray-700 rounded-md bg-green-100 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
                         {{ .Name | humanize}}
                     </a>
                     {{ end }}

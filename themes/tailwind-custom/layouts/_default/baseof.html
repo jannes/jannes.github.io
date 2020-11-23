@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang='{{ .Site.LanguageCode }}'>
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<!-- should only load the css for inter font after page load TODO: include --> 
+<!-- <script> 
+    //define function to load css
+    var loadCss = function(){
+        var cssLink = document.createElement('link');
+        cssLink.rel = 'stylesheet';
+        cssLink.href = 'https://rsms.me/inter/inter.css';
+        var head = document.getElementsByTagName('head')[0];
+        head.parentNode.insertBefore(cssLink, head);
+    };
+    //call function on window load
+    window.addEventListener('load', loadCss);
+</script> -->
 {{ partial "head.html" . }}
 
 <body class="antialiased font-sans">
