@@ -20,6 +20,12 @@ html {
     }
 }
 
+@layer utilities {
+    .max-w-xxs {
+        max-width: 10;
+    }
+}
+
 @screen md {
     html {
         font-size: 16px;
