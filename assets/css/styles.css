@@ -10,7 +10,13 @@ html {
 
 @layer base {
     h1 {
-        @apply bg-green-200;
+        @apply text-3xl;
+        @apply font-courier;
+        @apply text-gray-500;
+    }
+    h2 {
+        @apply text-2xl;
+        @apply font-courier;
     }
 }
 

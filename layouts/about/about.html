@@ -1,11 +1,11 @@
 {{ define "main" }}
-<h1 class="text-center font-serif font-thin text-3xl text-gray-500 my-9">About me</h1>
+<h1 class="text-center font-thin my-9">About me</h1>
 <article class="prose">
     {{ .Content }}
 </article>
 
 <div class="object-bottom">
-    <h2 class="text-center font-serif font-thin text-xl text-gray-500 my-9">Links</h2>
+    <h2 class="text-center font-thin text-xl text-gray-500 my-9">Links</h2>
     {{ $github_logo := resources.GetMatch "images/GitHub-Mark-120px-plus.png" }}
     {{ $linkedin_logo := resources.GetMatch "images/LI-In-Bug.png" }}
     <div class="mt-5 grid gap-2 grid-cols-1 md:grid-cols-3">
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <div class="ml-5">
-                        <div class="text-xl text-center leading-8 font-semibold text-gray-900">
+                        <div class="text-xl text-center leading-8 text-gray-900">
                             Github
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         </svg>
                     </div>
                     <div class="ml-5">
-                        <div class="text-xl text-center leading-8 font-semibold text-gray-900">
+                        <div class="text-xl text-center leading-8 text-gray-900">
                             Mail
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                         <img src="{{$linkedin_logo.Permalink}}" class="h-8 w-9">
                     </div>
                     <div class="ml-5">
-                        <div class="text-xl text-center leading-8 font-semibold text-gray-900">
+                        <div class="text-xl text-center leading-8 text-gray-900">
                             LinkedIn
                         </div>
                     </div>
