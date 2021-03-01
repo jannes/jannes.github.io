@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jannes的网站 on Jannes</title>
+    <link>https://www.jannestimm.com/zh/</link>
+    <description>Recent content in Jannes的网站 on Jannes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jannestimm.com/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>含词汇</title>
+      <link>https://www.jannestimm.com/zh/projects/han_cihui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/zh/projects/han_cihui/</guid>
+      <description>提供分词和词语管理（包括Anki同步）的CLI工具</description>
+    </item>
+    
+    <item>
+      <title>生词过滤</title>
+      <link>https://www.jannestimm.com/zh/projects/han_filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/zh/projects/han_filter/</guid>
+      <description>筛选生词的桌面应用。</description>
+    </item>
+    
+    <item>
+      <title>集汉子-词语分析</title>
+      <link>https://www.jannestimm.com/zh/projects/jihanzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/zh/projects/jihanzi/</guid>
+      <description>分析ebook里面的中文生词的网应用。</description>
+    </item>
+    
+    <item>
+      <title>关于我</title>
+      <link>https://www.jannestimm.com/zh/about/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jannestimm.com/zh/about/</guid>
+      <description>我是Jannes.
+我喜欢学习中文和写代码. 我把一些编程项目和个人的信息放在这个网站上。 还有，我会偶尔发一些关于我感兴趣的话题的帖子。</description>
+    </item>
+    
+  </channel>
+</rss>

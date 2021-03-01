@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/projects/han_cihui/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/projects/han_cihui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/projects/han_cihui/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/projects/han_filter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/projects/han_filter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/projects/han_filter/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/projects/jihanzi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/projects/jihanzi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/projects/jihanzi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/about/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/notes/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/notes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jannestimm.com/zh/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/projects/"
+                />
+  </url>
+  
+</urlset>
