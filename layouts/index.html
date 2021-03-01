@@ -5,8 +5,8 @@
 </article>
 <section>
     {{/* Recent Notes*/}}
-    <article class="text-center mt-16">
-        <h2>{{i18n "recentnotes"}}</h2>
+    <article class="text-center mt-20">
+        <h2 class="mb-6">{{i18n "recentnotes"}}</h2>
         <div class="posts">
             {{ range first 3 (where (where $.Site.RegularPages ".Section" "notes" ) ".Draft" false)}}
             <div class="post">

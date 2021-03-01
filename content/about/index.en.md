@@ -13,4 +13,7 @@ email_address: jannes.dev@posteo.net
 ---
 
 I'm Jannes.  
-I like learning Mandarin and programming.
+
+I like learning Mandarin and coding.
+On this site I am aiming to aggregate some info about
+my personal programming projects and some posts about anything I find interesting.
