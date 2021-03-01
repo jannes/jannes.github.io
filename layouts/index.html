@@ -1,41 +1,22 @@
 {{ define "main" }}
 <article class="text-center mb-9">
-    <h1 class="font-thin mb-7">{{ .Title }}</h1>
+    <h1 class="font-thin mb-16">{{ .Title }}</h1>
     {{$.Page.Description}}
 </article>
 <section>
-    <ul>
-        {{ range $.Site.Home.AllTranslations }}
-        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-        {{ end }}
-    </ul>
-    <ul>
-        {{ range .Site.Languages }}
-        {{ if eq . $.Site.Language }}
-        <li>{{ .LanguageName }}</span>
-            {{ end }}
-            {{ end }}
-            <ul class="dropdown__menu">
-                {{ range $.Translations }}
-                <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-                </li>
-            </ul>
-            {{ end }}
-        </li>
-    </ul>
     {{/* Recent Notes*/}}
-    <article class="text-center mt-8">
-        <h2 class="text-2xl">recent notes</h2>
+    <article class="text-center mt-16">
+        <h2>{{i18n "recentnotes"}}</h2>
         <div class="posts">
             {{ range first 3 (where (where $.Site.RegularPages ".Section" "notes" ) ".Draft" false)}}
             <div class="post">
                 <a href="{{.Permalink}}">
                     {{default (.File.ContentBaseName | humanize | title) .Title}}
-                    ({{ .Date.Format "January 2, 2006" }})
+                    ({{ i18n "dateformat" | .Date.Format }})
                 </a>
             </div>
             {{else}}
-            no notes yet
+            {{i18n "nonotes"}}
             {{end}}
         </div>
     </article>

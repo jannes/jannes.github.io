@@ -2,7 +2,11 @@
 {{- partial "section-title.html" (dict "title" .Section) -}}
 {{ range .Pages }}
 <article class="text-gray-700 sm:mx-12 mb-4">
-    <h2 class="text-xl font-bold text-gray-700"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <h2 class="text-xl font-bold text-gray-700">
+        <a href="{{ .Permalink }}">
+            {{ i18n "dateformat" | .Date.Format }} --- {{ .Title }}
+        </a>
+    </h2>
     ({{ .Description }})
 </article>
 {{ end }}

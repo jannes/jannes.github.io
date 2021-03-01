@@ -13,3 +13,13 @@ other = "链接"
 other = "最新的帖子"
 [nonotes]
 other = "还没有帖子"
+
+[timeframe]
+other = "时间"
+[techused]
+other = "使用的技术"
+[link]
+other = "链接"
+
+[dateformat]
+other ="2006年1月2号"

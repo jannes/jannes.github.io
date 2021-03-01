@@ -1,6 +1,7 @@
 {{ define "main" }}
-{{- partial "section-title.html" (dict "title" .Title) -}}
+<h2 class="font-thin text-center">{{ .Title }}</h2>
+<h3 class="text-center mb-8">{{ i18n "dateformat" | .Date.Format }}</h3>
 <article class="text-gray-700 sm:mx-12">
-    <div class="prose">{{ .Content }}</div>
+    {{ .Content }}
 </article>
 {{ end }}

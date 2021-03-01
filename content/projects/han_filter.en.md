@@ -1,6 +1,6 @@
 ---
 title: "Word-list filter App"
-project_timeframe: 2020 - present
+project_timeframe: 2020
 project_tech: Typescript, Electron, Angular
 project_link: https://github.com/jannes/zh-vocab-filter
 layout: project

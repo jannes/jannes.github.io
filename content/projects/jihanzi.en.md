@@ -8,3 +8,4 @@ weight: 3
 ---
 
 A web app to extract Mandarin vocabulary information from epub, pdf and raw text.
+

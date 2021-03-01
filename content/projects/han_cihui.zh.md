@@ -1,10 +1,10 @@
 ---
-title: "Mandarin vocabulary manager"
-project_timeframe: 2020 - present
+title: "含词汇"
+project_timeframe: 2020 - 现在
 project_tech: Rust, SQLite
 project_link: https://github.com/jannes/han-cihui
 layout: project
 weight: 1
 ---
 
-CLI tool for Mandarin vocabulary extraction, synchronization with Anki
+提供分词和词语管理（包括Anki同步）的CLI工具

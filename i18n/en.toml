@@ -13,3 +13,13 @@ other = "links"
 other = "recent notes"
 [nonotes]
 other = "no notes yet"
+
+[timeframe]
+other = "timeframe"
+[techused]
+other = "tech used"
+[link]
+other = "link"
+
+[dateformat]
+other = "January 2, 2006"

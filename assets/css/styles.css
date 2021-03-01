@@ -4,12 +4,16 @@
 
 @import "components/all.css";
 
-html {
-    font-size: 14px;
-}
-
 @layer base {
+    html {
+        font-size: 16px;
+    }
     h1 {
+        @apply text-3xl;
+        @apply font-courier;
+        @apply text-gray-500;
+    }
+    h1:lang(zh) {
         @apply text-3xl;
         @apply font-courier;
         @apply text-gray-500;
@@ -17,6 +21,22 @@ html {
     h2 {
         @apply text-2xl;
         @apply font-courier;
+    }
+    h2:lang(zh) {
+        @apply text-3xl;
+        @apply font-courier;
+    }
+    .menu-item {
+        @apply text-lg font-medium;
+    }
+    .menu-item:lang(zh) {
+        @apply text-xl font-medium;
+    }
+    * {
+        @apply text-base
+    }
+    *:lang(zh) {
+        @apply text-lg
     }
 }
 

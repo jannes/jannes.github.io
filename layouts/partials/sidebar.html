@@ -13,7 +13,8 @@
             x-transition:enter="transition ease-in-out duration-300 transform"
             x-transition:enter-start="-translate-x-full" x-transition:enter-end="translate-x-0"
             x-transition:leave="transition ease-in-out duration-300 transform" x-transition:leave-start="translate-x-0"
-            x-transition:leave-end="-translate-x-full" class="relative flex flex-col bg-gray-100" style="display: none;">
+            x-transition:leave-end="-translate-x-full" class="relative flex flex-col bg-gray-100"
+            style="display: none;">
             <div class="absolute top-0 right-0 -mr-14 p-1">
                 <button x-show="sidebarOpen" @click="sidebarOpen = false"
                     class="flex items-center justify-center h-12 w-12 rounded-full focus:outline-none focus:bg-gray-600"
@@ -34,6 +35,13 @@
                     {{ end }}
                 </nav>
             </div>
+            <div class="flex flex-col" aria-labelledby="languageSelector">
+                {{ range site.Home.AllTranslations }}
+                <a class="flex-1 text-lg font-courier items-center px-2" href="{{ .RelPermalink }}">
+                    {{ .Language.LanguageName }}
+                </a>
+                {{ end }}
+            </div>
         </div>
         <div class="flex-shrink-0 w-10">
             <!-- Force sidebar to shrink to fit close icon -->
@@ -50,12 +58,24 @@
                 <nav class="mt-5 flex-1 px-2 space-y-1">
                     {{ range $.Site.Menus.main }}
                     <a href="{{ .URL | relLangURL }}"
-                        class="group font-courier flex border-b border-t border-gray-200 items-center px-2 py-4 text-lg leading-5 font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-green-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
+                        class="group menu-item font-courier flex border-b border-t border-gray-200 items-center px-2 py-4  text-gray-700 rounded-md hover:text-gray-900 hover:bg-green-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
                         {{ .Name }}
                     </a>
                     {{ end }}
                 </nav>
             </div>
+            {{- if .IsTranslated }}
+            <div class="flex flex-col mx-1 mb-2" aria-labelledby="languageSelector">
+                {{ range .AllTranslations }}
+                {{ if eq .Language $.Site.Language }} <div class="border-gray-500 rounded-md border">
+                {{ else }} <div> {{ end }}
+                    <a class="flex-1 font-courier text-lg items-center px-2" href="{{ .Permalink }}">
+                        {{ .Language.LanguageName }}
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+            {{- end }}
         </div>
     </div>
 </div>

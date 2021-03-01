@@ -27,8 +27,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-				'courier': ['Courier Prime', ...defaultTheme.fontFamily.mono],
+				sans: ['Inter var', 'Noto Serif SC', ...defaultTheme.fontFamily.sans],
+				'courier': ['Courier Prime', 'Ma Shan Zheng', ...defaultTheme.fontFamily.mono],
 			},
 		}
 	},
