@@ -1,11 +1,12 @@
 {{ define "main" }}
-<h1 class="text-center font-thin my-9">About me</h1>
+{{- partial "section-title.html" (dict "title" "about") -}}
+
 <article class="prose">
     {{ .Content }}
 </article>
 
 <div class="object-bottom">
-    <h2 class="text-center font-thin text-xl text-gray-500 my-9">Links</h2>
+    <h2 class="text-center font-thin text-xl text-gray-500 my-9">{{i18n "links" | humanize}}</h2>
     {{ $github_logo := resources.GetMatch "images/GitHub-Mark-120px-plus.png" }}
     {{ $linkedin_logo := resources.GetMatch "images/LI-In-Bug.png" }}
     <div class="mt-5 grid gap-2 grid-cols-1 md:grid-cols-3">

@@ -1,0 +1,15 @@
+[home]
+other = "home"
+[about]
+other = "about"
+[projects]
+other = "projects"
+[notes]
+other = "notes"
+
+[links]
+other = "links"
+[recentnotes]
+other = "recent notes"
+[nonotes]
+other = "no notes yet"

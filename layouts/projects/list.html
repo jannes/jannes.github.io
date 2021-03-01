@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- partial "section-title.html" . -}}
+{{- partial "section-title.html" (dict "title" .Section) -}}
 <div class="space-y-3">
     {{ range .Pages }}
     {{- partial "project-card.html" . -}}

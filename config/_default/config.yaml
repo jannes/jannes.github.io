@@ -3,9 +3,15 @@ languageCode: en-us
 title: Jannes
 author: Jannes Timmm
 description: personal website of Jannes Timm
-# theme: tailwind-custom
 keywords:
   - Jannes Timm
+
+defaultContentLanguage: en
+languages:
+  en:
+    weight: 0
+  zh:
+    weight: 1
 
 build:
   writeStats: true

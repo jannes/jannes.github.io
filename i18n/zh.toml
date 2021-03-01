@@ -1,0 +1,15 @@
+[home]
+other = "首页"
+[about]
+other = "关于我"
+[projects]
+other = "项目"
+[notes]
+other = "帖子"
+
+[links]
+other = "链接"
+[recentnotes]
+other = "最新的帖子"
+[nonotes]
+other = "还没有帖子"

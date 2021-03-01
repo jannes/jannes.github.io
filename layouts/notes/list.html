@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- partial "section-title.html" . -}}
+{{- partial "section-title.html" (dict "title" .Section) -}}
 {{ range .Pages }}
 <article class="text-gray-700 sm:mx-12 mb-4">
     <h2 class="text-xl font-bold text-gray-700"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
