@@ -34,16 +34,5 @@
       <description>A desktop application to quickly filter word-lists for words to study.</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>https://www.jannestimm.com/about/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jannestimm.com/about/</guid>
-      <description>I&amp;rsquo;m Jannes.
-I like learning Mandarin and coding.
-On this site I am aiming to aggregate some info about my personal programming projects and some posts about anything I find interesting.</description>
-    </item>
-    
   </channel>
 </rss>

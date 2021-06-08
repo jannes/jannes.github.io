@@ -34,15 +34,5 @@
       <description>筛选生词的桌面应用。</description>
     </item>
     
-    <item>
-      <title>关于我</title>
-      <link>https://www.jannestimm.com/zh/about/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jannestimm.com/zh/about/</guid>
-      <description>我是Jannes.
-我喜欢学习中文和写代码. 我把一些编程项目和个人的信息放在这个网站上。 还有，我会偶尔发一些关于我感兴趣的话题的帖子。</description>
-    </item>
-    
   </channel>
 </rss>
