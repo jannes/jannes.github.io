@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='zh'>
+<html lang='en-us'>
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"> 
@@ -12,9 +12,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>
     
-     Jannes- 
+     Jannes-Basic Curl usage 
     
-  </title><meta name="generator" content="Hugo 0.91.2" />
+  </title>
+  <meta name="description" content="A list of basic Curl examples showing some useful options" />
+  
+  <meta name="author" content="Jannes Timm" />
+  <meta name="generator" content="Hugo 0.91.2" />
 
   
   
@@ -59,33 +63,33 @@
             <div class="flex-1 h-0 pt-5 pb-4 overflow-y-auto">
                 <nav class="mt-5 px-2 space-y-1">
                     
-                    <a href="/zh/"
+                    <a href="/"
                         class="group flex font-courier justify-center px-4 py-2 text-base leading-6 font-medium text-gray-900 border-b-2 border-t-2 rounded-lg bg-green-100 focus:outline-none focus:bg-white transition ease-in-out duration-150">
-                        首页
+                        home
                     </a>
                     
-                    <a href="/zh/notes"
+                    <a href="/notes"
                         class="group flex font-courier justify-center px-4 py-2 text-base leading-6 font-medium text-gray-900 border-b-2 border-t-2 rounded-lg bg-green-100 focus:outline-none focus:bg-white transition ease-in-out duration-150">
-                        帖子
+                        notes
                     </a>
                     
-                    <a href="/zh/projects"
+                    <a href="/projects"
                         class="group flex font-courier justify-center px-4 py-2 text-base leading-6 font-medium text-gray-900 border-b-2 border-t-2 rounded-lg bg-green-100 focus:outline-none focus:bg-white transition ease-in-out duration-150">
-                        项目
+                        projects
                     </a>
                     
                 </nav>
             </div>
             <div class="flex flex-col mx-4 mb-2" aria-labelledby="languageSelector">
                 
-                 <div class="border-gray-500 rounded-md border">
-                    
+                 <div> 
                 <a class="flex-1 text-lg font-courier items-center px-2" href="/zh/">
                     简体中文
                 </a>
                 </div>
                 
-                 <div> 
+                 <div class="border-gray-500 rounded-md border">
+                    
                 <a class="flex-1 text-lg font-courier items-center px-2" href="/">
                     English
                 </a>
@@ -107,38 +111,22 @@
             <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
                 <nav class="mt-5 flex-1 px-2 space-y-1">
                     
-                    <a href="/zh/"
+                    <a href="/"
                         class="group menu-item font-courier flex justify-center border-b border-t border-gray-200 px-2 py-4  text-gray-700 rounded-md hover:text-gray-900 hover:bg-green-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
-                        首页
+                        home
                     </a>
                     
-                    <a href="/zh/notes"
+                    <a href="/notes"
                         class="group menu-item font-courier flex justify-center border-b border-t border-gray-200 px-2 py-4  text-gray-700 rounded-md hover:text-gray-900 hover:bg-green-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
-                        帖子
+                        notes
                     </a>
                     
-                    <a href="/zh/projects"
+                    <a href="/projects"
                         class="group menu-item font-courier flex justify-center border-b border-t border-gray-200 px-2 py-4  text-gray-700 rounded-md hover:text-gray-900 hover:bg-green-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
-                        项目
+                        projects
                     </a>
                     
                 </nav>
-            </div>
-            <div class="flex flex-col mx-4 mb-2" aria-labelledby="languageSelector">
-                
-                 <div class="border-gray-500 rounded-md border">
-                
-                    <a class="flex-1 font-courier text-lg items-center px-2" href="https://www.jannestimm.com/zh/notes/">
-                        简体中文
-                    </a>
-                </div>
-                
-                 <div> 
-                    <a class="flex-1 font-courier text-lg items-center px-2" href="https://www.jannestimm.com/notes/">
-                        English
-                    </a>
-                </div>
-                
             </div>
         </div>
     </div>
@@ -157,8 +145,59 @@
             <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none" tabindex="0">
                 <div class="pt-2 pb-6 md:py-6">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-                        <article class="text-center mb-9">
-    <h1 class="font-thin">帖子</h1>
+                        
+<h2 class="font-thin text-center">Basic Curl usage</h2>
+<h3 class="text-center mb-8">January 4, 2022</h3>
+<article class="text-gray-700 sm:mx-12">
+    <p>Curl is a http client that can be used from the command line. It has tons of options and here I will list some of some that I find most useful.<br>
+For a detailed usage guide, go to <a href="https://everything.curl.dev/">https://everything.curl.dev/</a> (maintained by the Curl author).</p>
+<h2 id="output-options" class="mt-5 mb-2">
+    Output options 
+    
+</h2><p>Show verbose output (e.g TLS handshake etc.)</p>
+<pre tabindex="0"><code>curl -v &lt;url&gt;
+</code></pre><p>Hide progress bar output</p>
+<pre tabindex="0"><code>curl -s &lt;url&gt;
+</code></pre><p>Show response headers</p>
+<pre tabindex="0"><code>curl -i &lt;url&gt;
+</code></pre><p>Options that don&rsquo;t take arguments can be combined like this:</p>
+<pre tabindex="0"><code>curl -si &lt;url&gt;
+</code></pre><p>Show only response headers (by making HEAD request)</p>
+<pre tabindex="0"><code>curl -I &lt;url&gt;
+</code></pre><p>Redirect output to file (e.g /dev/null)</p>
+<pre tabindex="0"><code>curl -o &lt;path&gt; &lt;url&gt;
+</code></pre><p>Print out HTTP status code (combine with -o /dev/null to only get status code output)</p>
+<pre tabindex="0"><code>curl -w &quot;%{http_code}&quot; &lt;url&gt;
+</code></pre><h2 id="modify-request-behavior" class="mt-5 mb-2">
+    Modify request behavior 
+    
+</h2><p>Follow redirects</p>
+<pre tabindex="0"><code>curl -L &lt;url&gt;
+</code></pre><p>Read cookies to use for request from given path</p>
+<pre tabindex="0"><code>curl -b &lt;path&gt; &lt;url&gt;
+</code></pre><p>(can use non-existing path, no error and cookies will be set correctly for redirects)</p>
+<pre tabindex="0"><code>curl -b &lt;non-existing-path&gt; -L &lt;url&gt;
+</code></pre><p>Write cookies from response to file</p>
+<pre tabindex="0"><code>curl -c &lt;path&gt; &lt;url&gt;
+</code></pre><p>Timeout after x seconds</p>
+<pre tabindex="0"><code>curl -m &lt;seconds&gt; &lt;url&gt;
+</code></pre><h2 id="non-get-requests" class="mt-5 mb-2">
+    Non-GET requests 
+    
+</h2><p>Do request other than POST</p>
+<pre tabindex="0"><code>curl -X post &lt;url&gt;
+curl -X put &lt;url&gt;
+...
+</code></pre><p>multipart/form-data POST<br>
+with file upload</p>
+<pre tabindex="0"><code>curl -F &lt;key&gt;=@&lt;path_to_file&gt; &lt;url&gt;
+</code></pre><p>with key/value pair</p>
+<pre tabindex="0"><code>curl -F &lt;key&gt;=&lt;value&gt; &lt;url&gt;
+</code></pre><p>(can use multiple -F flags to set multiple key/val, key/file pairs)</p>
+<pre tabindex="0"><code>curl -F &lt;key1&gt;=&lt;value1&gt; -F &lt;key2&gt;=@&lt;path_to_file&gt; &lt;url&gt;
+</code></pre><p>do POST with JSON body</p>
+<pre tabindex="0"><code>curl --data '{&quot;&lt;key&gt;&quot;: &quot;&lt;value&gt;&quot;}' &lt;url&gt;
+</code></pre>
 </article>
 
                     </div>

@@ -38,6 +38,23 @@
                 href="https://www.jannestimm.com/projects/han_filter/"
                 />
   </url><url>
+    <loc>https://www.jannestimm.com/notes/</loc>
+    <lastmod>2022-01-04T09:50:18+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.jannestimm.com/zh/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jannestimm.com/notes/"
+                />
+  </url><url>
+    <loc>https://www.jannestimm.com/notes/basic_curl/</loc>
+    <lastmod>2022-01-04T09:50:18+01:00</lastmod>
+  </url><url>
     <loc>https://www.jannestimm.com/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -49,19 +66,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.jannestimm.com/"
-                />
-  </url><url>
-    <loc>https://www.jannestimm.com/notes/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.jannestimm.com/zh/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.jannestimm.com/notes/"
                 />
   </url><url>
     <loc>https://www.jannestimm.com/projects/</loc>
