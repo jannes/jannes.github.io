@@ -13,12 +13,8 @@
       <pubDate>Tue, 04 Jan 2022 09:50:18 +0100</pubDate>
       
       <guid>https://www.jannestimm.com/notes/basic_curl/</guid>
-      <description>Curl is a http client that can be used from the command line. It has tons of options and here I will list some of some that I find most useful.
-For a detailed usage guide, go to https://everything.curl.dev/ (maintained by the Curl author).
-Output options Show verbose output (e.g TLS handshake etc.)
-curl -v &amp;lt;url&amp;gt; Hide progress bar output
-curl -s &amp;lt;url&amp;gt; Show response headers
-curl -i &amp;lt;url&amp;gt; Options that don&amp;rsquo;t take arguments can be combined like this:</description>
+      <description>Curl is a http client that can be used from the command line. It has tons of options and here I will list some of some that I find most useful. For a detailed usage guide, go to https://everything.curl.dev/ (maintained by the Curl author).
+curl &amp;lt;url&amp;gt; will make a GET request to the given URL and print out the response. In the following I&amp;rsquo;ll list some of the options that change curl&amp;rsquo;s output and behavior.</description>
     </item>
     
   </channel>

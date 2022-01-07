@@ -27,7 +27,7 @@
   
   
   
-  <link href="/css/styles.min.54fa542e575662e660fbd17c9f1045e7b87ae91dd3373d22646ed20a36f42723.css" rel="stylesheet" />
+  <link href="/css/styles.min.5a3e8ea58835f7a99bb7e820d952875fa6875f146136113335a301f2759993ca.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 
@@ -149,8 +149,10 @@
 <h2 class="font-thin text-center">Basic Curl usage</h2>
 <h3 class="text-center mb-8">January 4, 2022</h3>
 <article class="text-gray-700 sm:mx-12">
-    <p>Curl is a http client that can be used from the command line. It has tons of options and here I will list some of some that I find most useful.<br>
+    <p>Curl is a http client that can be used from the command line. It has tons of options and here I will list some of some that I find most useful.
 For a detailed usage guide, go to <a href="https://everything.curl.dev/">https://everything.curl.dev/</a> (maintained by the Curl author).</p>
+<p><code>curl &lt;url&gt;</code> will make a GET request to the given URL and print out the response.
+In the following I&rsquo;ll list some of the options that change curl&rsquo;s output and behavior.</p>
 <h2 id="output-options" class="mt-5 mb-2">
     Output options 
     
@@ -184,7 +186,7 @@ For a detailed usage guide, go to <a href="https://everything.curl.dev/">https:/
 </code></pre><h2 id="non-get-requests" class="mt-5 mb-2">
     Non-GET requests 
     
-</h2><p>Do request other than POST</p>
+</h2><p>Do request other than GET</p>
 <pre tabindex="0"><code>curl -X post &lt;url&gt;
 curl -X put &lt;url&gt;
 ...
